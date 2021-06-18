@@ -22,7 +22,7 @@
     <div class="col-sm-6">
         <label for="Country" class="col-form-label">Country</label>
         <div>
-            <select name="countryId" class="form-control" asp-items="@ViewBag.Countries"></select>
+            <select name="countryId" class="form-control select-menu" asp-items="@ViewBag.Countries"></select>
             <span asp-validation-for="Country" class="text-danger"></span>
         </div>
     </div>

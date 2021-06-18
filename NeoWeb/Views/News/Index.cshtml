@@ -25,8 +25,8 @@
         <input class="form-control" name="keywords" value="@ViewBag.KeyWords" type="text" />
     </div>
     <div class="filter">
-        <select id="type" class="form-control" name="type" asp-items="ViewBag.AllType"></select>
-        <select id="year" class="form-control" name="year" asp-items="ViewBag.AllYear"></select>
+        <select id="type" class="form-control select-menu" name="type" asp-items="ViewBag.AllType"></select>
+        <select id="year" class="form-control select-menu" name="year" asp-items="ViewBag.AllYear"></select>
         <div class="search-btn btn-4 d-inline-block" onclick="$('.d-search').submit()"><i class="iconfont">&#xe600;</i>SEARCH</div>
     </div>
 </form>
