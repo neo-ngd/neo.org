@@ -3,7 +3,7 @@
 @inject IHtmlLocalizer<SharedResource> SharedLocalizer
 
 <h2 class="main-title">@Localizer["Wallets"]</h2>
-<select class="select-version-page form-control">
+<select class="select-version-page form-control select-menu">
     <option value="n3" selected="selected">Neo N3</option>
     <option value="legacy">Neo Legacy</option>
 </select>
@@ -25,7 +25,7 @@
     <span class="tab" data-type="web">@Localizer["Web"]</span>
 </div>
 
-<select class="select-tab-page form-control d-flex d-md-none my-3">
+<select class="select-tab-page form-control d-flex d-md-none my-3 select-menu">
     <option value="" selected="selected">@Localizer["All"]</option>
     <option value="desktop">@Localizer["Desktop"]</option>
     <option value="mobile">@Localizer["Mobile"]</option>
